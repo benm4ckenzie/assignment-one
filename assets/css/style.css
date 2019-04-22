@@ -1,38 +1,154 @@
-.container-wrapper {}
-
-.container-wrapper--red {
-    background-color: #f05f40;
-    color: white;
+.navbar {
+    background-color: rgba(0, 0, 0, 0);
 }
 
-.alert-container {}
+.apple-logo {
+    Height: 45px;
+    Width: 45px;
+}
 
-.callout-container {
+/*------------------------------------------------------------------------------Backgrounds*/
+
+.home-bg {
     height: 100vh;
-
-    background: url('../images/beatles-cover.jpg') no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
+    background: url('../images/beatles-cover.jpg') no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+.about-bg {
+    height: 100vh;
+    background: url('../images/beatles-peppers.jpg') no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
-.content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
+.video-bg {
+    height: 100vh;
+    background: url('../images/beatles-blackandwhite.jpg') no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/*.music-bg {
+    height: 100vh;
+    background: url('../images/album1.jpg') no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}*/
+
+.contact-bg {
+    height: 100vh;
+    background: url('../images/beatles-abbeyroad.jpeg') no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+/*------------------------------------------------------------------------------Albums*/
+
+/*.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: none;
+}
+
+@media (min-width: 768px) {
+.col-sm-5ths {
+        width: 20%;
+        float: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: none;
+    }
+}*/
+
+.album {
+     float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/*------------------------------------------------------------------------------Footer*/
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    fint size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #6b6b69;
 }
