@@ -1,21 +1,14 @@
-.navbar {
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.apple-logo {
-    Height: 45px;
-    Width: 45px;
-}
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Special+Elite:100,200,300,400,500,600,700,800,900,1000|Dancing+Script:100,200,300,400,500,600,700,800,900,1000');
 
 /*------------------------------------------------------------------------------Backgrounds*/
 
 .home-bg {
     height: 100vh;
-    background: url('../images/beatles-cover.jpg') no-repeat;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+    background: url('../images/beatles-cover.jpg') no-repeat right top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,10 +18,10 @@
 .about-bg {
     height: 100vh;
     background: url('../images/beatles-peppers.jpg') no-repeat;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,11 +30,11 @@
 
 .video-bg {
     height: 100vh;
-    background: url('../images/beatles-blackandwhite.jpg') no-repeat;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+    background: url('../images/beatles-blackandwhite.jpg') no-repeat right bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,10 +44,10 @@
 /*.music-bg {
     height: 100vh;
     background: url('../images/album1.jpg') no-repeat;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,16 +56,83 @@
 
 .contact-bg {
     height: 100vh;
-    background: url('../images/beatles-abbeyroad.jpeg') no-repeat;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+    background: url('../images/beatles-abbeyroad.jpeg') no-repeat right bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
+
+/*------------------------------------------------------------------------------Navbar*/
+
+navbar {
+    background: transparent;
+    border-color: transparent;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-collapse {
+    text-align: right;
+    border-top: 1px solid transparent;
+    overflow-x: hidden;
+}
+
+.navbar-fixed-top .container {
+    text-align: right;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.navbar-right {
+    float: right!important;
+}
+
+
+
+/*------------------------------------------------------------------------------Home*/
+
+.home-strap {
+    font-family: 'Special Elite', sans-serif;
+    font-weight: 900;
+    color: #B39100;
+    text-align: center;
+}
+
+#home {
+    height: 500px;
+}
+
+.title {
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------About*/
+
+.about-text {
+    margin-left: 120px;
+    margin-top: 400px;
+    margin-right: 850px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.about-para {
+    font-family: 'Special Elite', Sans-serif;
+    font-size: larger;
+    font-weight: 900;
+    color: #000000;
+    text-align: left;
+    padding: 0px;
+}
+
+.about-para p {
+    margin: 5px;
+}
+
 
 
 /*------------------------------------------------------------------------------Albums*/
@@ -114,41 +174,160 @@
 }*/
 
 .album {
-     float: left;
-  width: 20%;
-  padding: 10px;
+    float: left;
+    width: 20%;
+    padding: 10px;
 }
 
 /* Clear floats after image containers */
+
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
+
+/*------------------------------------------------------------------------------Contact*/
+
+.jumbotron {
+    background-color: rgb(255,255,255,0.4);
+    padding: 0;
+    margin: 0px 75px;
+   
+}
+
+.contact-heading {
+    font-family: 'Special Elite', Cursive;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    margin: 25px;
+}
+
+.contact-heading-2 {
+    font-family: 'Special Elite', Cursive;
+    font-weight: 500;
+    color: #000000;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.contact-boxes {
+    margin: 5px;
+}
+
+button[type='submit'] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: #e84610;
+}
 
 /*------------------------------------------------------------------------------Footer*/
 
+footer {
+    background-color: rgba(107, 107, 105, 0.3);
+    min-height: 100px;
+    margin: 0;
+}
+
 .social-links {
-    padding-bottom: 15px;
+    padding-bottom: 0px;
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    fint size: 13px;
+    width: 35px;
+    height: 35px;
+    border-radius: 20%;
+    font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    color: #ffffff;
+    background: #898986;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
 }
 
 .social-links li a i:hover {
-    background: #6b6b69;
+    background: #000000;
 }
+
+.sub-heading {
+    font-family: 'Special Elite', sans-serif;
+    font-weight: 400;
+    color: #898986;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.foot-video i {
+    font-size: 35px;
+    color: #898986;
+    text-align: center;
+    padding-left: 10px;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.foot-video i:hover {
+    color: #000000;
+}
+
+.foot-music i {
+    font-size: 35px;
+    color: #898986;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.foot-music i:hover {
+    color: #000000;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Special Elite', sans-serif;
+    font-weight: 300;
+    color: #898986;
+    text-align: center;
+    margin: 0;
+}
+
+footer h4 {
+    margin: 0;
+}
+
+/*------------------------------------------------------------------------------Website Use*/
+
+.inline-block {
+    display: inline-block;
+}
+
+/*------------------------------------------------------------------------------Media Query*/
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }

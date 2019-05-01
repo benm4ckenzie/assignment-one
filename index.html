@@ -14,143 +14,286 @@
 </head>
 
 <body>
+
+    <!--NAVIGATION BAR-->
     <header>
-        <nav class="navbar fixed-top">
-            <div class="container-fluid">
-                <ul class="nav navbar-nav">
-                    <li><a href="#about">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#video">Video</a></li>
-                    <li><a href="#music">Music</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+        <nav class="navbar navbar-light fixed-top" style="padding: 0px;">
+            <div class="container-fluid" style="padding: 15px;">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="page-scroll" href="#home">Home</a></li>
+                        <li><a class="page-scroll" href="#about">About</a></li>
+                        <li><a class="page-scroll" href="#video">Video</a></li>
+                        <li><a class="page-scroll" href="#music">Music</a></li>
+                        <li><a class="page-scroll" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
+
+
+    <!--HOMEPAGE-->
     <section class="container-fluid" style="padding-right: 0px; padding-left: 0px">
         <div class="col-xs-4 col-lg-12" style="padding-right: 0px; padding-left: 0px">
-            <!--HOMEPAGE-->
-            <div id="background" class="home-bg">
+            <div id="home" class="home-bg">
                 <div class="row">
-                    <div class="col-12">
-                        <H1>Still the greatest band, ever!</H1>
-                    </div>
-                </div>
-            </div>
-            <!--ABOUT-->
-            <div id="backbround" class="about-bg">
-                <div class="row">
-                    <div class="col-sm-4 col-md-6">
-                        <p>This is an example text for the details we will put on the website pertaining to the beatles.</p>
-                    </div>
-                </div>
-            </div>
-            <!--VIDEO-->
-            <div id="background" class="video-bg">
-                <div class="row" style="text-align: right">
-                    <div class="col-sm-4">
-                        <button onclick="playPause()">Play/Pause</button>
-                        <video src="../assets/video/don't-let-me-down.mp4" type="video/mp4" />
-                    </div>
-                </div>
-            </div>
-            <!--MUSIC-->
-            <div id="background" class="music-bg">
-            <!--ROW 1-->
-                <div class="row">
-                    <div class="col album" style="padding-left: 0px; padding-right: 0px">
-                        <span>
-                            <img src="../assets/images/album1.jpg" alt="please please me" style="width:95%"></img>
-                        </span>
-                    </div>
-                    <div class="col album" style="padding-left: 0px; padding-right: 0px">
-                        <span>
-                            <img src="../assets/images/album2.jpg" alt="with the beatles" style="width:95%"></img>
-                        </span>
-                    </div>
-                    <div class="col album" style="padding-left: 0px; padding-right: 0px">
-                        <span>
-                            <img src="../assets/images/album3.jpg" alt="a hard day's night" style="width:95%"></img>
-                        </span>
-                    </div>
-                    <div class="col album" style="padding-left: 0px; padding-right: 0px">
-                        <span>
-                            <img src="../assets/images/album4.jpg" alt="beatles for sale" style="width:95%"></img>
-                        </span>
-                    </div>
-                    <div class="col album" style="padding-left: 0px; padding-right: 0px">
-                        <span>
-                            <img src="../assets/images/album5.jpg" alt="help" style="width:95%"></img>
-                        </span>
-                    </div>
-                </div>
-            <!--CONTACT-->
-            <div id="background" class="contact-bg">
-                <div class="row bg-color-contact">
                     <div class="col">
-                        <h3 class="contact-heading uppercase text-center">Got a project in min?</h3>
-                        <h5 class="uppercase text-center">Let's work together!</h5>
-                        <div class="center-form">
-                            <form>
-                                <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                                <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-                                <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
-                                <div class="form-row text-center">
-                                    <div class="col">
-                                        <button type="submit" c;ass="btn btn-secondary">Send project request </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+                        <h1 class="home-strap">Still the greatest band, ever!</h1>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+    <!--ABOUT-->
+    <section class="container-fluid" style="padding-right: 0px; padding-left: 0px">
+        <div class="col-xs-4 col-lg-12" style="padding-right: 0px; padding-left: 0px">
+            <div id="about" class="about-bg">
+                <div class="row about-text">
+                    <div class="col-sm-4 col-md-12 about-para">
+                        <p>The Beatles, formed in 1960, domintated the music scene for over a decade and managing to do what many musicians had failed to do prior, and conquer the American charts.</p>
+                        <br>
+                        <p>50 years on and the Beatles' musical influence is still evident in contemporary writing, production and performance styles. Their concerts remain sold-out and the band has an ever growing fanbase which is indicative of their music's
+                            ability to transcend generations. </p>
+                        <br>
+                        <p>As well as their world-wide concerts, The Beatles enjoy performing live at intimate events where they can play bespoke playlists and spend time with their fans in a more relaxed and personal situation.</p>
+                        <br>
+                        <p>If you would like to know more about The Beatles' upcoming live performances, or enquire about booking them for an event, head to our contact page and complete the form.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--VIDEO-->
+    <section class="container-fluid" style="padding-right: 0px; padding-left: 0px">
+        <div class="col-xs-4 col-lg-12" style="padding-right: 0px; padding-left: 0px">
+            <div id="video" class="video-bg">
+                <div class="row" style="text-align: right; padding-left: 1200px; padding-top: 670px;">
+                    <div class="col-sm-4">
+                        <video controls>
+                            <source src="../assets/video/don't-let-me-down.mp4" type="video/mp4"></source>
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--MUSIC-->
+    <section class="container-fluid" style="padding-right: 0px; padding-left: 0px">
+        <div class="col-xs-4 col-lg-12" style="padding-right: 0px; padding-left: 0px">
+            <div id="music" class="music-bg">
+                <!--ROW 1-->
+                <div class="row">
+                    <div class="col album" style="padding: 0px;">
+                        <span>
+                          <img src="../assets/images/album1.jpg" alt="please please me" style="width:100%"></img>
+                        </span>
+                    </div>
+                    <div class="col album" style="padding: 0px;">
+                        <span>
+                          <img src="../assets/images/album2.jpg" alt="with the beatles" style="width:100%"></img>
+                        </span>
+                    </div>
+                    <div class="col album" style="padding: 0px;">
+                        <span>
+                            <img src="../assets/images/album3.jpg" alt="a hard day's night" style="width:100%"></img>
+                        </span>
+                    </div>
+                    <div class="col album" style="padding: 0px;">
+                        <span>
+                            <img src="../assets/images/album4.jpg" alt="beatles for sale" style="width:100%"></img>
+                        </span>
+                    </div>
+                    <div class="col album" style="padding: 0px;">
+                        <span>
+                            <img src="../assets/images/album5.jpg" alt="help" style="width:100%"></img>
+                        </span>
+                    </div>
+                </div>
+                <!--ROW 2-->
+                <div class="row">
+                    <div class="col album" style="padding: 0px;">
+                        <span>
+                            <img src="../assets/images/album6.jpg" alt="rubber soul" style="width:100%"></img>
+                        </span>
+                    </div>
+                    <div class="col album" style="padding: 0px;">
+                        <span>
+                            <img src="../assets/images/album7.jpg" alt="revolver" style="width:100%"></img>
+                        </span>
+                    </div>
+                    <div class="col album" style="padding: 0px;">
+                        <span>
+                            <img src="../assets/images/album8.jpg" alt="sgt peppers" style="width:100%"></img>
+                        </span>
+                    </div>
+                    <div class="col album" style="padding: 0px;">
+                        <span>
+                            <img src="../assets/images/album9.jpg" alt="magical mystery tour" style="width:100%"></img>
+                        </span>
+                    </div>
+                    <div class="col album" style="padding: 0px;">
+                        <span>
+                            <img src="../assets/images/album10.jpg" alt="white album" style="width:100%"></img>
+                        </span>
+                    </div>
+                </div>
+                <!--ROW 3-->
+                <div class="row">
+                    <div class="col album" style="padding: 0px;">
+                        <span>
+                            <img src="../assets/images/album11.jpg" alt="yellow submarine" style="width:100%"></img>
+                        </span>
+                    </div>
+                    <div class="col album" style="padding: 0px;">
+                        <span>
+                            <img src="../assets/images/album12.jpg" alt="abbey road" style="width:100%"></img>
+                        </span>
+                    </div>
+                    <div class="col album" style="padding: 0px;">
+                        <span>
+                            <img src="../assets/images/album13.jpg" alt="let it be" style="width:100%"></img>
+                        </span>
+                    </div>
+                    <div class="col album" style="padding: 0px;">
+                        <span>
+                            <img src="../assets/images/album14.jpg" alt="1962-1966" style="width:100%"></img>
+                        </span>
+                    </div>
+                    <div class="col album" style="padding: 0px;">
+                        <span>
+                            <img src="../assets/images/album15.jpg" alt="1967-1970" style="width:100%"></img>
+                        </span>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!--CONTACT-->
+    <section class="container-fluid" style="padding-right: 0px; padding-left: 0px">
+        <div class="col-xs-4 col-lg-12" style="padding-right: 0px; padding-left: 0px">
+            <div id="contact" class="contact-bg">
+                <div class="row">
+                    <div class="col jumbotron">
+                        <h2 class="contact-heading text-center">Want to know more about The Beatles, their upcoming gigs, or availibility?</h2>
+                        <h4 class="contact-heading-2 text-center">Get in touch</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col center-form">
+                        <form>
+                            <input type="text" name="name" id="fullname" class="form-control contact-boxes" placeholder="Name" required />
+                            <input type="email" name="email" id="emailaddress" class="form-control contact-boxes" placeholder="E-Mail" required />
+                            <textarea rows="5" name="enquiry" id="enquiry" class="form-control contact-boxes" placeholder="Enquiry" required></textarea>
+                            <div class="form-row text-center">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-secondary">Send enquiry</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--FOOTER-->
     <footer class="container-fluid">
         <!-- social media -->
-        <div class="col-sm-4">
-            <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                    <a target="blank" href="#">
+        <div class="row">
+            <div class="col-sm-3">
+                <h4 class="sub-heading">About</h4>
+                <p class="inline-block">
+                    Writing, producing and performing original material for over 50 years.
+                </p>
+            </div>
+            <div class="col-sm-3">
+                <h4 class="sub-heading">Video</h4>
+                <p class="inline-block footer-text">
+                    Watch our rooftop performance at Abbey Road.
+                </p>
+                <br>
+                <p class="inline-block footer-text">
+                    <a href="#" class="foot-video">
+                        <i class="fa fa-film" aria-hidden="true'"></i>
+                        <span class="sr-only">Download link</span>
+                    </a>
+                </p>
+            </div>
+            <div class="col-sm-3">
+                <h4 class="sub-heading">Music</h4>
+                <p class="inline-block footer-text">
+                    Sample a song from each of our albums.
+                </p>
+                <br>
+                <p class="inline-block footer-text">
+                    <a href="#" class="foot-music">
+                        <i class="fa fa-music" aria-hidden="true"></i>
+                        <span class="sr-only">Download link</span>
+                    </a>
+                </p>
+            </div>
+            <div class="col-sm-3">
+                <h4 class="sub-heading">Social</h4>
+                <div class="inline-block">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="blank" href="#">
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="blank" href="#">
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
                             <span class="sr-only">LinkedIn</span>
                         </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="blank" href="#">
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
                             <i class="fa fa-pinterest" aria-hidden="true"></i>
                             <span class="sr-only">Pinterest</span>
                         </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="blank" href="#">
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="blank" href="#">
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
                             <i class="fa fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
-                </li>
-            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <!-- social media end-->
     </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
