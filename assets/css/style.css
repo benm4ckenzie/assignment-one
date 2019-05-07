@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Special+Elite:100,200,300,400,500,600,700,800,900,1000|Dancing+Script:100,200,300,400,500,600,700,800,900,1000');
 
+
+/*------------------------------------------------------------------------------Body*/
+
 /*------------------------------------------------------------------------------Backgrounds*/
 
-.home-bg {
-    height: 100vh;
+/*.home-bg {
+    height: 90vh;
     background: url('../images/beatles-cover.jpg') no-repeat right top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -16,7 +19,7 @@
 }
 
 .about-bg {
-    height: 100vh;
+    height: 90vh;
     background: url('../images/beatles-peppers.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -29,7 +32,7 @@
 }
 
 .video-bg {
-    height: 100vh;
+    height: 90vh;
     background: url('../images/beatles-blackandwhite.jpg') no-repeat right bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -41,7 +44,7 @@
     position: relative;
 }
 
-/*.music-bg {
+.music-bg {
     height: 100vh;
     background: url('../images/album1.jpg') no-repeat;
     -webkit-background-size: cover;
@@ -52,7 +55,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-}*/
+}
 
 .contact-bg {
     height: 100vh;
@@ -65,19 +68,72 @@
     align-items: center;
     justify-content: center;
     position: relative;
+}*/
+
+/*------------------------------------------------------------------------------Containers*/
+
+.home-container {
+    height: 90vh;
+    background: url('../images/beatles-cover.jpg') no-repeat top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.about-container {
+    height: 90vh;
+    background: url('../images/beatles-peppers.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.video-container {
+    height: 90vh;
+    background: url('../images/beatles-blackandwhite.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.music-container {}
+
+.contact-container {
+    height: 80vh;
+    background: url('../images/beatles-abbeyroad.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 /*------------------------------------------------------------------------------Navbar*/
 
-navbar {
-    background: transparent;
-    border-color: transparent;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+.navbar-bg {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .navbar .navbar-collapse {
-    text-align: right;
+    text-align: center;
     border-top: 1px solid transparent;
     overflow-x: hidden;
 }
@@ -92,6 +148,31 @@ navbar {
     float: right!important;
 }
 
+.nav-link-design {
+    font-family: 'Special Elite', sans-serif;
+    font-weight: 200;
+    color: #000000;
+}
+
+.navbar-name {
+    font-family: 'Special Elite', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #000000;
+}
+
+.nav-item-1 {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.nav-item-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
 
 
 /*------------------------------------------------------------------------------Home*/
@@ -99,25 +180,22 @@ navbar {
 .home-strap {
     font-family: 'Special Elite', sans-serif;
     font-weight: 900;
+    font-size: 20px;
     color: #B39100;
-    text-align: center;
-}
-
-#home {
-    height: 500px;
-}
-
-.title {
-    position: relative;
+    text-align: left;
 }
 
 /*------------------------------------------------------------------------------About*/
 
+.about-box {
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
 .about-text {
-    margin-left: 120px;
-    margin-top: 400px;
-    margin-right: 850px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
 }
 
 .about-para {
@@ -130,12 +208,28 @@ navbar {
 }
 
 .about-para p {
-    margin: 5px;
+    margin: 10px;
+}
+
+/*------------------------------------------------------------------------------Video*/
+
+.video-position {
+    position: relative;
+}
+
+.video-spread video {
+    width: 90vh;
+}
+
+.video-display {}
+
+/*------------------------------------------------------------------------------Albums*/
+
+#music img {
+    cursor: pointer;
 }
 
 
-
-/*------------------------------------------------------------------------------Albums*/
 
 /*.col-xs-5ths,
 .col-sm-5ths,
@@ -174,27 +268,30 @@ navbar {
 }*/
 
 .album {
-    float: left;
+    float: none;
     width: 20%;
-    padding: 10px;
+    padding-top: 100%;
+    position: relative;
+
 }
 
-/* Clear floats after image containers */
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
+.album img {
+    height: 100%;
+    width: 100%;
 }
+
 
 
 /*------------------------------------------------------------------------------Contact*/
 
-.jumbotron {
-    background-color: rgb(255,255,255,0.4);
+.contact-title {
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 0;
-    margin: 0px 75px;
-   
+    margin: 0px 10px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
 }
 
 .contact-heading {
@@ -228,15 +325,19 @@ button[type='submit'] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #ffffff;
-    background-color: #e84610;
+    background-color: green;
 }
 
 /*------------------------------------------------------------------------------Footer*/
 
-footer {
-    background-color: rgba(107, 107, 105, 0.3);
-    min-height: 100px;
+/*footer {
     margin: 0;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.3);
+}*/
+
+.footer-bg {
+    padding: 0px;
 }
 
 .social-links {
@@ -248,7 +349,7 @@ footer {
     height: 35px;
     border-radius: 20%;
     font-size: 13px;
-    line-height: 7px;
+    line-height: 35px;
     text-align: center;
     color: #ffffff;
     background: #898986;
@@ -265,7 +366,7 @@ footer {
 .sub-heading {
     font-family: 'Special Elite', sans-serif;
     font-weight: 400;
-    color: #898986;
+    color: #000000;
     text-align: center;
     padding-top: 10px;
 }
@@ -302,12 +403,13 @@ footer {
 
 footer div {
     text-align: center;
+    padding-top: 10px;
 }
 
 footer p {
     font-family: 'Special Elite', sans-serif;
-    font-weight: 300;
-    color: #898986;
+    font-weight: 200;
+    color: #000000;
     text-align: center;
     margin: 0;
 }
@@ -316,18 +418,58 @@ footer h4 {
     margin: 0;
 }
 
+
+
 /*------------------------------------------------------------------------------Website Use*/
 
 .inline-block {
     display: inline-block;
 }
 
+.box {
+    margin: 0;
+}
+
 /*------------------------------------------------------------------------------Media Query*/
 
-@media(min-width: 992px) {
+@media(min-width: 1200px) {
     .center-form {
         padding-top: 30px;
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
     }
+
+    .sm-album {
+        display: none;
+    }
+
+    .video-display-sm {
+        display: none;
+    }
+}
+
+@media(max-width: 1199px) {
+    .lg-album {
+        display: none;
+    }
+
+    .video-display-lg {
+        display: none;
+    }
+
+    .about-para {
+        font-size: small;
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .sub-heading {
+        font-size: 15px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
