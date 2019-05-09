@@ -3,25 +3,9 @@
 
 /*------------------------------------------------------------------------------Body*/
 
-
 /*------------------------------------------------------------------------------Containers*/
 
-
-
-.home-container-2 {
-    height: 90vh;
-    background: url('../images/beatles-cover-sm.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.home-container-1 {
+.home-container {
     height: 90vh;
     background: url('../images/beatles-cover.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -47,22 +31,9 @@
     position: relative;
 }
 
-.video-container-lg {
+.video-container {
     height: 90vh;
     background: url('../images/beatles-blackandwhite.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.video-container-sm {
-    height: 90vh;
-    background: url('../images/beatles-cover-md.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -192,7 +163,7 @@
 
 .about-para {
     font-family: 'Special Elite', Sans-serif;
-    font-size: x-large;
+    font-size: large;
     font-weight: 900;
     color: #000000;
     text-align: left;
@@ -210,8 +181,6 @@
     height: 66%;
     padding: 0;
 }
-
-.video-display {}
 
 /*------------------------------------------------------------------------------Albums*/
 
@@ -372,8 +341,8 @@
 
 .contact-heading-2 {
     font-family: 'Special Elite', Cursive;
-    font-weight: 500;
-    font-size: medium;
+    font-weight: 700;
+    font-size: large;
     color: #000000;
     text-align: center;
     margin-top: 0px;
@@ -406,9 +375,10 @@ button[type='submit'] {
     left: 0;
     right: 0;
     width: 100%;
-    border-top: 1px solid rgba(0,0,0,1);
-    background: rgba(255, 255, 255, 1)
+    border-top: 1px solid rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 0.5)
 }
+
 .footer-link:hover {
     color: #898986;
     text-decoration: none;
@@ -482,7 +452,7 @@ footer h4 {
 
 /*------------------------------------------------------------------------------Media Query*/
 
-@media(min-width: 1200px) {
+@media (min-width: 1200px) {
     .center-form {
         padding-top: 30px;
         min-height: 240px;
@@ -494,54 +464,76 @@ footer h4 {
         display: none;
     }
 
-    .home-container-2 {
-        display: none;
-    }
-    
-    .video-container-sm {
+    .video-container-2 {
         display: none;
     }
 }
 
-@media(max-width: 1199px) {
+@media (max-width: 1199px) {
     .lg-album {
         display: none;
     }
-    
-    .home-container-1 {
-        display: none;
-    }
-    
-    .video-container-lg {
-        display: none;
+
+    .home-container {
+        height: 90vh;
+        background: url('../images/beatles-cover-sm.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
     }
 
+    .video-container {
+        height: 90vh;
+        background: url('../images/beatles-cover-md.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+.about-para {
+    font-size: medium;
+    text-align: center;
+}
+
+.contact-heading {
+    font-size: large;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.contact-heading-2 {
+    font-size: medium;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sub-heading {
+    font-size: 15px;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+
+}
+
+@media (max-width: 991px) {
+    
     .about-para {
-        font-size: small;
-        text-align: center;
-    }
-
-    .contact-heading {
-        font-size: medium;
-        text-align: center;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .contact-heading-2 {
-        font-size: small;
-        text-align: center;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .sub-heading {
-        font-size: 15px;
-    }
-
-    footer p {
-        font-size: 12px;
-    }
-
-
+    font-size: small;
+    text-align: center;
+}
 }
