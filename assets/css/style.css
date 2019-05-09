@@ -3,78 +3,12 @@
 
 /*------------------------------------------------------------------------------Body*/
 
-/*------------------------------------------------------------------------------Backgrounds*/
-
-/*.home-bg {
-    height: 90vh;
-    background: url('../images/beatles-cover.jpg') no-repeat right top fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.about-bg {
-    height: 90vh;
-    background: url('../images/beatles-peppers.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.video-bg {
-    height: 90vh;
-    background: url('../images/beatles-blackandwhite.jpg') no-repeat right bottom fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.music-bg {
-    height: 100vh;
-    background: url('../images/album1.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.contact-bg {
-    height: 100vh;
-    background: url('../images/beatles-abbeyroad.jpeg') no-repeat right bottom fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}*/
 
 /*------------------------------------------------------------------------------Containers*/
 
-.home-container {
+.home-container-lg {
     height: 90vh;
-    background: url('../images/beatles-cover.jpg') no-repeat top fixed;
+    background: url('../images/beatles-cover.jpg') no-repeat center right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -128,8 +62,20 @@
 
 /*------------------------------------------------------------------------------Navbar*/
 
-.navbar-bg {
+.navbar {
+    position: fixed;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-collapse {
+    color: #000000;
 }
 
 .navbar .navbar-collapse {
@@ -154,6 +100,24 @@
     color: #000000;
 }
 
+.nav-link-design:hover {
+    color: #898986;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.navbar-name:hover {
+    color: #898986;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
 .navbar-name {
     font-family: 'Special Elite', sans-serif;
     font-weight: 700;
@@ -162,7 +126,7 @@
 }
 
 .nav-item-1 {
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 10px;
 }
 
@@ -188,9 +152,8 @@
 /*------------------------------------------------------------------------------About*/
 
 .about-box {
-    padding-left: 10px;
-    padding-right: 10px;
-    
+    padding: 0;
+
 }
 
 .about-text {
@@ -200,11 +163,11 @@
 
 .about-para {
     font-family: 'Special Elite', Sans-serif;
-    font-size: larger;
+    font-size: x-large;
     font-weight: 900;
     color: #000000;
     text-align: left;
-    padding: 0px;
+    margin: 10px;
 }
 
 .about-para p {
@@ -229,6 +192,83 @@
     cursor: pointer;
 }
 
+.album {
+    float: none;
+    width: 20%;
+    padding-top: 100%;
+    position: relative;
+}
+
+.album-1-bg {
+    background: url('../images/album1.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.album-2-bg {
+    background: url('../images/album2.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.album-3-bg {
+    background: url('../images/album3.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.album-4-bg {
+    background: url('../images/album4.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.album-5-bg {
+    background: url('../images/album5.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.fa-play-circle {
+    color: #ffffff;
+
+}
+
+.fa-pause-circle {
+    color: #ffffff;
+}
 
 
 /*.col-xs-5ths,
@@ -267,14 +307,6 @@
     }
 }*/
 
-.album {
-    float: none;
-    width: 20%;
-    padding-top: 100%;
-    position: relative;
-
-}
-
 .album img {
     height: 100%;
     width: 100%;
@@ -297,6 +329,7 @@
 .contact-heading {
     font-family: 'Special Elite', Cursive;
     font-weight: 700;
+    font-size: x-large;
     color: #000000;
     text-align: center;
     margin: 25px;
@@ -305,6 +338,7 @@
 .contact-heading-2 {
     font-family: 'Special Elite', Cursive;
     font-weight: 500;
+    font-size: medium;
     color: #000000;
     text-align: center;
     margin-top: 0px;
@@ -330,14 +364,23 @@ button[type='submit'] {
 
 /*------------------------------------------------------------------------------Footer*/
 
-/*footer {
+.footer {
+    bottom: 0px;
     margin: 0;
-    opacity: 1;
-    background-color: rgba(255, 255, 255, 0.3);
-}*/
-
-.footer-bg {
-    padding: 0px;
+    padding: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,1);
+    background: rgba(255, 255, 255, 1)
+}
+.footer-link:hover {
+    color: #898986;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
 }
 
 .social-links {
@@ -352,7 +395,7 @@ button[type='submit'] {
     line-height: 35px;
     text-align: center;
     color: #ffffff;
-    background: #898986;
+    background: #000000;
     transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
@@ -360,7 +403,7 @@ button[type='submit'] {
 }
 
 .social-links li a i:hover {
-    background: #000000;
+    background: #898986;
 }
 
 .sub-heading {
@@ -371,39 +414,10 @@ button[type='submit'] {
     padding-top: 10px;
 }
 
-.foot-video i {
-    font-size: 35px;
-    color: #898986;
-    text-align: center;
-    padding-left: 10px;
-    transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-}
-
-.foot-video i:hover {
-    color: #000000;
-}
-
-.foot-music i {
-    font-size: 35px;
-    color: #898986;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-}
-
-.foot-music i:hover {
-    color: #000000;
-}
-
 footer div {
     text-align: center;
     padding-top: 10px;
+    background: transparent;
 }
 
 footer p {
@@ -428,6 +442,7 @@ footer h4 {
 
 .box {
     margin: 0;
+    padding: 0;
 }
 
 /*------------------------------------------------------------------------------Media Query*/
@@ -461,8 +476,20 @@ footer h4 {
     .about-para {
         font-size: small;
         text-align: center;
-        padding-left: 40px;
-        padding-right: 40px;
+    }
+
+    .contact-heading {
+        font-size: medium;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .contact-heading-2 {
+        font-size: small;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .sub-heading {
@@ -472,4 +499,6 @@ footer h4 {
     footer p {
         font-size: 12px;
     }
+
+
 }
