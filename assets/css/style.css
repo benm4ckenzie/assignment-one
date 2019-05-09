@@ -6,9 +6,24 @@
 
 /*------------------------------------------------------------------------------Containers*/
 
-.home-container-lg {
+
+
+.home-container-2 {
     height: 90vh;
-    background: url('../images/beatles-cover.jpg') no-repeat center right fixed;
+    background: url('../images/beatles-cover-sm.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.home-container-1 {
+    height: 90vh;
+    background: url('../images/beatles-cover.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -32,9 +47,22 @@
     position: relative;
 }
 
-.video-container {
+.video-container-lg {
     height: 90vh;
     background: url('../images/beatles-blackandwhite.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.video-container-sm {
+    height: 90vh;
+    background: url('../images/beatles-cover-md.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -153,6 +181,7 @@
 
 .about-box {
     padding: 0;
+    margin: 0;
 
 }
 
@@ -177,11 +206,9 @@
 /*------------------------------------------------------------------------------Video*/
 
 .video-position {
-    position: relative;
-}
-
-.video-spread video {
-    width: 90vh;
+    width: 100%;
+    height: 66%;
+    padding: 0;
 }
 
 .video-display {}
@@ -268,6 +295,14 @@
 
 .fa-pause-circle {
     color: #ffffff;
+}
+
+#music div img {
+    z-index: 2;
+}
+
+#music div img a {
+    z-index: 1;
 }
 
 
@@ -459,7 +494,11 @@ footer h4 {
         display: none;
     }
 
-    .video-display-sm {
+    .home-container-2 {
+        display: none;
+    }
+    
+    .video-container-sm {
         display: none;
     }
 }
@@ -468,8 +507,12 @@ footer h4 {
     .lg-album {
         display: none;
     }
-
-    .video-display-lg {
+    
+    .home-container-1 {
+        display: none;
+    }
+    
+    .video-container-lg {
         display: none;
     }
 
