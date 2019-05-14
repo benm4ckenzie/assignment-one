@@ -66,7 +66,7 @@
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .navbar .navbar-toggler {
@@ -157,7 +157,7 @@
 }
 
 .about-text {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
 }
 
@@ -172,6 +172,21 @@
 
 .about-para p {
     margin: 10px;
+}
+
+.about-anchor {
+    color: #000000;
+    text-decoration: none;
+}
+
+.about-anchor:hover {
+    color: #898986;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
 }
 
 /*------------------------------------------------------------------------------Video*/
@@ -450,7 +465,7 @@
 /*------------------------------------------------------------------------------Contact*/
 
 .contact-title {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 0;
     margin: 0px 10px;
     border-radius: 10px;
@@ -461,7 +476,7 @@
 
 .contact-heading {
     font-family: 'Special Elite', Cursive;
-    font-weight: 700;
+    font-weight: 900;
     font-size: x-large;
     color: #000000;
     text-align: center;
@@ -470,8 +485,8 @@
 
 .contact-heading-2 {
     font-family: 'Special Elite', Cursive;
-    font-weight: 700;
-    font-size: large;
+    font-weight: 900;
+    font-size: x-large;
     color: #000000;
     text-align: center;
     margin-top: 0px;
@@ -494,6 +509,8 @@ button[type='submit'] {
     color: #ffffff;
     background-color: green;
 }
+
+
 
 /*------------------------------------------------------------------------------Footer*/
 
@@ -542,7 +559,8 @@ button[type='submit'] {
 
 .sub-heading {
     font-family: 'Special Elite', sans-serif;
-    font-weight: 400;
+    font-size: x-large;
+    font-weight: 300;
     color: #000000;
     text-align: center;
     padding-top: 10px;
@@ -556,7 +574,8 @@ footer div {
 
 footer p {
     font-family: 'Special Elite', sans-serif;
-    font-weight: 200;
+    font-size: large;
+    font-weight: 300;
     color: #000000;
     text-align: center;
     margin: 0;
@@ -641,32 +660,23 @@ footer h4 {
         justify-content: center;
         position: relative;
     }
+    
+    .about-text {
+        height: auto;
+        overflow: hidden;
+    }
 
     .about-para {
         font-size: medium;
-        text-align: center;
-    }
-
-    .contact-heading {
-        font-size: large;
-        text-align: center;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .contact-heading-2 {
-        font-size: medium;
-        text-align: center;
-        padding-left: 5px;
-        padding-right: 5px;
+        text-align: left;
     }
 
     .sub-heading {
-        font-size: 15px;
+        font-size: x-large;
     }
 
     footer p {
-        font-size: 12px;
+        font-size: medium;
     }
 
 
@@ -677,5 +687,34 @@ footer h4 {
     .about-para {
         font-size: small;
         text-align: center;
+    }
+    
+    .contact-heading {
+        font-size: large;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .contact-heading-2 {
+        font-size: large;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+     .sub-heading {
+        font-size: large;
+    }
+    
+    footer p {
+        font-size: small;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    .sub-heading {
+        font-size: medium;
     }
 }

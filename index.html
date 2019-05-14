@@ -18,15 +18,15 @@
     <!--NAVIGATION BAR-->
     <div class="container nav-design">
         <nav class="navbar navbar-bg navbar-light navbar-expand-sm fixed-top">
-            <a class="page-scroll navbar-name" href="#home">The Beatles</a>
+            <ul data-toggle="collapse" data-target=".navbar-collapse.show" style="padding-left: 0; margin-bottom: 0;"><a class="page-scroll navbar-name" href="#home">The Beatles</a></ul>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item-1 mr-2"><a class="page-scroll nav-link-design" href="#about">About</a></li>
-                    <li class="nav-item-2 mr-2"><a class="page-scroll nav-link-design" href="#video">Video</a></li>
-                    <li class="nav-item-2 mr-2"><a class="page-scroll nav-link-design" href="#music">Music</a></li>
-                    <li class="nav-item-2 mr-2"><a class="page-scroll nav-link-design" href="#contact">Contact</a></li>
+                    <li class="nav-item-1 mr-2" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="page-scroll nav-link-design" href="#about">About</a></li>
+                    <li class="nav-item-2 mr-2" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="page-scroll nav-link-design" href="#video">Video</a></li>
+                    <li class="nav-item-2 mr-2" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="page-scroll nav-link-design" href="#music">Music</a></li>
+                    <li class="nav-item-2 mr-2" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="page-scroll nav-link-design" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -45,15 +45,15 @@
         <div class="row about-box">
             <div id="about" class="col-12 about-container" style="padding: 0;">
                 <div class="row about-box">
-                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 about-text about-para" style="padding: 0;">
-                        <p>The Beatles, formed in 1960, domintated the music scene for over a decade and managing to do what many musicians had failed to do prior, and conquer the American charts.</p>
-                        <br class="d-none d-md-block">
+                    <div class="col-lg-9 col-xs-12 about-text about-para" style="padding: 0;">
+                        <p>The Beatles, formed in 1960, dominated the music scene for over a decade and managed to do what many British musicians had failed to do prior... Conquer the American charts.</p>
+                        <br>
                         <p>50 years on and The Beatles' musical influence is still evident in contemporary writing, production and performance styles. Their concerts remain sold-out and the band has an ever growing fanbase which is indicative of their music's
                             ability to transcend generations. </p>
-                        <br class="d-none d-md-block">
+                        <br>
                         <p>As well as their world-wide concerts, The Beatles enjoy performing live at intimate events where they can play bespoke playlists and spend time with their fans in a more relaxed and personal environment.</p>
-                        <br class="d-none d-md-block">
-                        <p>If you would like to know more about The Beatles' upcoming live performances, or enquire about booking them for an event, head to our contact page and complete the form.</p>
+                        <br>
+                        <p>If you would like to know more about The Beatles' upcoming live performances, or enquire about booking them for an event, head to our <a class="about-anchor" href="#contact">contact</a> page and complete the form.</p>
                         <!-- Add a to contact-->
                     </div>
                 </div>
@@ -78,8 +78,8 @@
 
     <!--MUSIC-->
     <section class="container-fluid" style="padding: 0;">
-        <div class="row box">
-            <div id="music" class="col-12 music-container lg-album" style="padding: 0px;">
+        <div id="music" class="row box">
+            <div class="col-12 music-container lg-album" style="padding: 0px;">
                 <!--ROW 1-->
                 <div class="row box">
                     <div class="col album album-1-bg" style="padding: 0px;">
@@ -547,32 +547,26 @@
         <!-- social media -->
         <div class="row box">
             <div class="col-xl-3 col-sm-4" style="padding: 5px">
-                <a class="page-scroll footer-link" href="#about">
-                    <h4 class="sub-heading footer-link">About</h4>
-                </a>
+                <a class="page-scroll footer-link sub-heading" href="#about">About</a>
                 <p class="d-none d-sm-block inline-block">
                     Writing, producing and performing original material for over 50 years.
                 </p>
             </div>
             <div class="col-xl-3 col-sm-4" style="padding: 5px">
-                <a class="page-scroll footer-link" href="#video">
-                    <h4 class="sub-heading footer-link">Video</h4>
-                </a>
+                <a class="page-scroll footer-link sub-heading" href="#video">Video</a>
                 <p class="d-none d-sm-block inline-block footer-text">
                     Watch our rooftop performance at Abbey Road.
                 </p>
             </div>
             <div class="col-xl-3 col-sm-4" style="padding: 5px">
-                <a class="page-scroll footer-link" href="#music">
-                    <h4 class="sub-heading footer-link">Music</h4>
-                </a>
+                <a class="page-scroll footer-link sub-heading" href="#music">Music</a>
                 <p class="d-none d-sm-block inline-block footer-text">
                     Sample a song from each of our albums.
                 </p>
             </div>
-            <div class="col-xl-3" style="padding: 5px">
-                <h4 class="sub-heading">Social</h4>
-                <div class="inline-block">
+            <div class="col-xl-3 sub-heading" style="padding: 5px">
+                Social
+                <div class="block">
                     <ul class="list-inline social-links">
                         <li class="list-inline-item">
                             <a target="_blank" href="https://www.facebook.com">
