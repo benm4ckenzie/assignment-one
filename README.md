@@ -1,17 +1,16 @@
-# Your Project's Name
+# The Beatles
 
-One or two paragraphs providing an overview of your project.
+The remit of the assignment was to create a responsive website of around 4-5 pages, or, if using a single scrolling page, a webiste with clearly defined page areas. In doing this, the use of semantic HTML5 elements were necessary to structure the HTML code better. In addition, the site should make use of CSS frameworks and a wireframe should have been created prior to development.
 
-Essentially, this part is your sales pitch.
- 
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+ The Beatles wanted the website developed to cater for both current and prospective fans, alike. In doing so, they wanted their webpage to be visually appealing whilst allowing visitors an opportunity to listen, and watch, selected songs from their back catalogue. Futhermore, the band wanted to highlight the fact that they are still performing regularly and are available for hire.
+ 
+ I wanted the website to provide a minimalist landscape whilst still allowing the user to access all of the key components with ease and with minimal instruction.
+ 
+ The focus of the website was on the band's artistic flare, to ensure a contrast in colours and tones between segments allowing for ease of identification as well as provide a visually appealing space.
+ 
+ The balsamiq wireframe can be accessed in the wireframes folder of the project directory.
 
 ## Features
 
