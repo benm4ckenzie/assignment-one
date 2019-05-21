@@ -15,43 +15,43 @@ The remit of the assignment was to create a responsive website of around 4-5 pag
 ## Features
 
 - Home
-I wanted the homepage to provide a striking image of the band, identifying who the band were, and offer clear and simple navigation options to the rest of the site. In addition, I wanted to drawer the user to additional material on the site by making the background image only 90% of the view height.
-An alternative image is used as screen resolution reduces so as to provide a clear indication of the focus of the website.
+    - I wanted the homepage to provide a striking image of the band, identifying who the band were, and offer clear and simple navigation options to the rest of the site. In addition, I wanted to drawer the user to additional material on the site by making the background image only 90% of the view height.
+    - An alternative image is used as screen resolution reduces so as to provide a clear indication of the focus of the website.
 
 - About
-No heading was used so as to keep with the minimalist theme of the site and a colourful background offered contrast from the black & white homepage image offering an indication that the user was in a new section.
-An opaque background was used for the 'about' dialogue so as to still allow the user access to the vivid image of the band in the background.
-As screen size reduces, both the font size and the text area changes to ensure an appropriate delivery of material whilst still offering a visually appealing background.
+    - No heading was used so as to keep with the minimalist theme of the site and a colourful background offered contrast from the black & white homepage image offering an indication that the user was in a new section.
+    - An opaque background was used for the 'about' dialogue so as to still allow the user access to the vivid image of the band in the background.
+    - As screen size reduces, both the font size and the text area changes to ensure an appropriate delivery of material whilst still offering a visually appealing background.
 
 - Video
-Again, a black & white background to contrast against the colourful 'about' section background and indicate to the user that they are now in another section.
-No heading was used again as I wanted the background image to be brought into focus.
-The video itself was placed centrally so the user could not miss it.
-The video remains central with a reduction in screen size.
+    - Again, a black & white background to contrast against the colourful 'about' section background and indicate to the user that they are now in another section.
+    - No heading was used again as I wanted the background image to be brought into focus.
+    - The video itself was placed centrally so the user could not miss it.
+    - The video remains central with a reduction in screen size.
 
 - Music
-Each of the band's 15 albums are showcased. Upon pressing the play icon, the user is played a song from that album. Pressing the pause icon pauses the playback of that song.
-With a change in screen size comes a change in both the layout of the album covers and the size of the play & pause icons to better suit smaller screen resolutions.
-Due to the colourful and diverse nature of the album cover mosaic, there was no requirement for a section background as, with the previous segments, the colours offered suitable contrast to the black & white background image of the 'video' section and therefore provided the user with an indication that they were in a new section.
-Due to the size of the images and the number of albums, this is the only segment whereby the section is not viewed with 90% of the view height as the continuous flow of albums should encourage the user to scroll further down the page.
+    - Each of the band's 15 albums are showcased. Upon pressing the play icon, the user is played a song from that album. Pressing the pause icon pauses the playback of that song.
+    - With a change in screen size comes a change in both the layout of the album covers and the size of the play & pause icons to better suit smaller screen resolutions.
+    - Due to the colourful and diverse nature of the album cover mosaic, there was no requirement for a section background as, with the previous segments, the colours offered suitable contrast to the black & white background image of the 'video' section and therefore provided the user with an indication that they were in a new section.
+    - Due to the size of the images and the number of albums, this is the only segment whereby the section is not viewed with 90% of the view height as the continuous flow of albums should encourage the user to scroll further down the page.
 
 - Contact
-As with all the sections that came before, I wanted a focus to be on the imagery associated with the section. As a result the catch-line alluding to the contact box was kept brief and to the point.
-Again, an opaque text box was used so as to not detract to much from the background image.
-The contact box takes up minimal real estate on the page and the submit button is green, paying homage to the colour of the apple that was used as an icon for The Beatles' own record label.
-The functions of each box work as intended and provide suitable feedback when not completed correctly.
-Both the catch-line and contact segments adjust accordingly with varying screen sizes.
+    - As with all the sections that came before, I wanted a focus to be on the imagery associated with the section. As a result the catch-line alluding to the contact box was kept brief and to the point.
+    - Again, an opaque text box was used so as to not detract to much from the background image.
+    - The contact box takes up minimal real estate on the page and the submit button is green, paying homage to the colour of the apple that was used as an icon for The Beatles' own record label.
+    - The functions of each box work as intended and provide suitable feedback when not completed correctly.
+    - Both the catch-line and contact segments adjust accordingly with varying screen sizes.
 
 - Navbar
-The navigation bar is opaque to showcase the background of each section and remains fixed when scrolling through the entire webpage allowing easy access to each section.
-At smaller screen sizes the navigation bar collapses to a burger icon so as to not take up too much room on the screen.
+    - The navigation bar is opaque to showcase the background of each section and remains fixed when scrolling through the entire webpage allowing easy access to each section.
+    - At smaller screen sizes the navigation bar collapses to a burger icon so as to not take up too much room on the screen.
 
 - Footer
-As with the navigation bar, the footer offers links to each section of the webpage as well as social media sites.
-Font size, footer content and arrangement alter as screen size reduces allowing for a more user-friendly experience.
+    - As with the navigation bar, the footer offers links to each section of the webpage as well as social media sites.
+    - Font size, footer content and arrangement alter as screen size reduces allowing for a more user-friendly experience.
 
 - Backgrounds
-As well as the black & white / colour contrast between sections, black & white images remain fixed to add a secondary indication that the user is entering or leaving a specific section.
+    -  As well as the black & white / colour contrast between sections, black & white images remain fixed to add a secondary indication that the user is entering or leaving a specific section.
 
 ### Existing Features
 - Navbar - Links to specific sections of the webpage, change colour when hovered (Colour and speed consistent in all site hover elements), clicking on 'The Beatles' will return to homepage. At small screen sizes, navbar menu collapses, and when accessed, will automatically collapse when links is clicked. Hover elements remain at smaller screen sizes.
@@ -84,23 +84,23 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Throughout the development of the webpage, there was continuous testing and evaluation to ascertain whether the website functioned as planned.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+The website was developed, as previously indicated, with minimalism in mind whilst drawing on the artistic side of the band and using their iconic imagery to appeal to both current and prospective fans.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+The 'inspect' tool in Google Chrome was my primary testing aparatus for my website when investigating the functionality and useability of the site at various screen resolutions. Whilst developing all sections of the website I continually reverted back to this tool to ensure the product matched my expectations.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+In addition to 'inspect' in Google Chrome, I frequented [W3C's HTML validation](https://validator.w3.org/) service as well as [W3C's CSS validation](https://jigsaw.w3.org/css-validator/) service to ensure my code fulfilled the necessary criteria.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Scenarios I was concerned with whilst developing and testing my website have already been indicated in the **features** part of this READMe file.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Whilst working on the project I ran into a number of bugs that I feel have been resolved to my satisfaction. These bugs included:
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+1. Navbar burger icon at large sizes.
+2. background images for homepage and video sections at smaller screen sizes.
+3. Text are sizing in about section when reducing the screen size.
+4. preventing an overlap from the video when in smaller screen sizes.
+5. Applying the play and pause icons the album covers.
 
 ## Deployment
 
