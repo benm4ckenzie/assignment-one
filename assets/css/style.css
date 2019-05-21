@@ -199,7 +199,11 @@
 
 /*------------------------------------------------------------------------------Albums*/
 
-#music img {
+.fa-pause-circle:hover {
+    cursor: pointer;
+}
+
+.fa-play-circle:hover {
     cursor: pointer;
 }
 
