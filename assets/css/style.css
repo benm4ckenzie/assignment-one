@@ -628,7 +628,7 @@ footer h4 {
 
     .home-container {
         height: 90vh;
-        background: url('../images/beatles-cover-sm.jpg') no-repeat center center;
+        background: url('../images/beatles-cover-sm.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -641,7 +641,7 @@ footer h4 {
 
     .video-container {
         height: 90vh;
-        background: url('../images/beatles-cover-md.jpg') no-repeat center center;
+        background: url('../images/beatles-cover-md.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -654,7 +654,7 @@ footer h4 {
 
     .contact-container {
         height: 80vh;
-        background: url('../images/beatles-abbeyroad.jpeg') no-repeat center center;
+        background: url('../images/beatles-abbeyroad.jpeg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
