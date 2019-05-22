@@ -43,7 +43,7 @@ The remit of the assignment was to create a responsive website of around 4-5 pag
     - Both the catch-line and contact segments adjust accordingly with varying screen sizes.
 
 - Navbar
-    - The navigation bar is opaque to showcase the background of each section and remains fixed when scrolling through the entire webpage allowing easy access to each section.
+    - The navigation bar remains fixed when scrolling through the entire webpage allowing easy access to each section.
     - At smaller screen sizes the navigation bar collapses to a burger icon so as to not take up too much room on the screen.
 
 - Footer
@@ -54,7 +54,8 @@ The remit of the assignment was to create a responsive website of around 4-5 pag
     -  As well as the black & white / colour contrast between sections, black & white images remain fixed to add a secondary indication that the user is entering or leaving a specific section.
 
 ### Existing Features
-- Navbar - Links to specific sections of the webpage, change colour when hovered (Colour and speed consistent in all site hover elements), clicking on 'The Beatles' will return to homepage. At small screen sizes, navbar menu collapses, and when accessed, will automatically collapse when links is clicked. Hover elements remain at smaller screen sizes.
+
+- Navbar - Links to specific sections of the webpage change colour when hovered (Colour and speed consistent in all site hover elements) and clicking on 'The Beatles' will return to homepage. At small screen sizes, navbar menu collapses, and when accessed, will automatically collapse when links is clicked. Hover elements remain at smaller screen sizes.
 - Background - The backgrounds of 'homepage' and 'video' sections change at smaller screen sizes as original picture was not suitable.
 - About - The word 'contact' in the 'about' section acts as a link to the 'contact' section of the webpage. However, this feature is not highlighted.
 - Music - Pressing the 'play' icon on an album cover will play a song from that album. Pressing the 'pause' button will pause the song that is playing. The layout of the album covers changes as the screen size reduces so as to make it more user friendly. In addition, the size of the 'play' and 'pause' icons reduce to match the resolution.
@@ -62,13 +63,12 @@ The remit of the assignment was to create a responsive website of around 4-5 pag
 - Footer - Each footer sub-heading acts as an anchor to each section of the webpage. These elements also change colour when hovered on. As the screen size reduces the font-size adjusts accordingly for both the sub-headings and text. At small screen sizes, the text is removed and the sub-headings are stacked centrally so as to take up minimal space. The social media links also change colour when hovered and redirect the user to the specific pages.
 
 ### Features Left to Implement
-- As there are no headings present in any of the sections, a feature that needs adding is an 'active' element to the navbar shortcut when the user is occupying that section.
+
+- As there are no headings present in any of the sections, a feature that needs adding is an 'active' element to the navbar shortcut when the user is within that section.
 - A 'stop' and 'rewind' icon needs adding to each of the album covers without taking up too much space. Alternatively, the 'pause' icon could be replaced by a 'stop' icon that immediately returns the audio file to the start position.
 - The video, upon playback being initiated, should increase to occupy more of the available screen. And, conversely, reduce in size once playback has ended or been stopped.
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
@@ -81,14 +81,13 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
     - The project uses **CSS** to add style to the HTML5 elements.
 
-
 ## Testing
 
 Throughout the development of the webpage, there was continuous testing and evaluation to ascertain whether the website functioned as planned.
 
 The website was developed, as previously indicated, with minimalism in mind whilst drawing on the artistic side of the band and using their iconic imagery to appeal to both current and prospective fans.
 
-The 'inspect' tool in Google Chrome was my primary testing aparatus for my website when investigating the functionality and useability of the site at various screen resolutions. Whilst developing all sections of the website I continually reverted back to this tool to ensure the product matched my expectations.
+The 'inspect' tool in Google Chrome was my primary testing aparatus for my website when investigating the functionality and useability of the site at various screen resolutions. Whilst developing all sections of the website I continually reverted back to this tool to ensure the product matched my expectations and make any styling modifications required at various screen resolutions.
 
 In addition to 'inspect' in Google Chrome, I frequented [W3C's HTML validation](https://validator.w3.org/) service as well as [W3C's CSS validation](https://jigsaw.w3.org/css-validator/) service to ensure my code fulfilled the necessary criteria.
 
@@ -98,11 +97,16 @@ Whilst working on the project I ran into a number of bugs that I feel have been 
 
 1. Navbar burger icon at large sizes.
 2. background images for homepage and video sections at smaller screen sizes.
-3. Text are sizing in about section when reducing the screen size.
-4. preventing an overlap from the video when in smaller screen sizes.
-5. Applying the play and pause icons the album covers.
+3. Text area sizing in about section when reducing the screen size.
+4. Preventing an overlap from the video when in smaller screen sizes.
+5. Applying the play and pause icons to the album covers.
 
 ## Deployment
+
+The site was deployed using GitHub. Throughout the development process, at each key phase, I committed the updated files to GitHub so as to back up my work and also allow me to refer back to previous versions of my work.
+
+
+
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
@@ -117,12 +121,19 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+- The music video for the 'Video' section of the website was copied from [YouTube](https://www.youtube.com/watch?v=NCtzkaL2t_Y).
+- The music for the 'Music' section of the website was taken from my own collection.
 
 ### Media
-- The photos used in this site were obtained from ...
+
+- The photo used for the 'Home' section of the website was obtained from [Front Porch](https://frontporch.club/galleries/poster-and-beatles-black-white-tumblr.html).
+- The photo used for the 'About' section of the website was obtained from [Consequence of Sound](https://consequenceofsound.net/2017/04/previously-unreleased-version-of-the-beatles-sgt-peppers-lonely-hearts-club-band-unearthed-from-the-vaults-listen/).
+- The photo used for the 'Video' section of the website was obtained from [SiriusXM](http://blog.siriusxm.com/from-yesterday-to-now-9-beatles-songs-that-are-often-overlooked/).
+- The photo used for the 'Music' section of the website was obtained from my own collection.
+- The photo used for the 'Contact' section of the website was obtained from [All4Prints](http://all4prints.com/en/portraits-iconic/1604-the-beatles-abbey-road.html).
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from my Father, an avid Beatles fan, who exposed me to they music from a young age. And, as a result, I became a fan, too.
 # assignment-one
