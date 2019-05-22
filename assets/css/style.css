@@ -7,7 +7,7 @@
 
 .home-container {
     height: 90vh;
-    background: url('../images/beatles-cover.jpg') no-repeat center center fixed;
+    background: url('../images/beatles-cover.jpg') no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
