@@ -121,6 +121,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Media
 
 - The photo used for the 'Home' section of the website was obtained from [Front Porch](https://frontporch.club/galleries/poster-and-beatles-black-white-tumblr.html).
+- https://www.pinterest.co.uk/pin/778208010580773370/?lp=true
 - The photo used for the 'About' section of the website was obtained from [Consequence of Sound](https://consequenceofsound.net/2017/04/previously-unreleased-version-of-the-beatles-sgt-peppers-lonely-hearts-club-band-unearthed-from-the-vaults-listen/).
 - The photo used for the 'Video' section of the website was obtained from [SiriusXM](http://blog.siriusxm.com/from-yesterday-to-now-9-beatles-songs-that-are-often-overlooked/).
 - The photo used for the 'Music' section of the website was obtained from my own collection.

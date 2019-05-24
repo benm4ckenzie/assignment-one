@@ -164,10 +164,10 @@
 .about-anchor:hover {
     color: #898986;
     text-decoration: none;
-    transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 
@@ -596,28 +596,28 @@ footer h4 {
     .nav-link-design:hover {
         color: #898986;
         text-decoration: none;
-        transition: all 0.4s ease-in-out;
-        -moz-transition: all 0.4s ease-in-out;
-        -webkit-transition: all 0.4s ease-in-out;
-        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
     }
 
     .navbar-name:hover {
         color: #898986;
         text-decoration: none;
-        transition: all 0.4s ease-in-out;
-        -moz-transition: all 0.4s ease-in-out;
-        -webkit-transition: all 0.4s ease-in-out;
-        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
     }
 
     .footer-link:hover {
         color: #898986;
         text-decoration: none;
-        transition: all 0.4s ease-in-out;
-        -moz-transition: all 0.4s ease-in-out;
-        -webkit-transition: all 0.4s ease-in-out;
-        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
     }
 
     .social-links li a i:hover {
@@ -626,45 +626,25 @@ footer h4 {
 }
 
 @media (max-width: 1199px) {
-    .nav-link-design,
-    .nav-link-design:link,
-    .nav-link-design:hover,
-    .nav-link-design:active,
-    .nav-link-design:visited,
-    .nav-link-design:focus {
-        text-decoration: none;
+   #navigation ul a {
+       text-decoration: none;
         color: #000000;
-    }
+   }
+   
+   #navigation ul li a {
+       text-decoration: none;
+        color: #000000;
+   }
+   
+   #footer a {
+       text-decoration: none;
+        color: #000000;
+   }
 
-    .navbar-name,
-    .navbar-name:link
-    .navbar-name:hover,
-    .navbar-name:active,
-    .navbar-name:visited,
-    .navbar-name:focus {
-        text-decoration: none;
-        color: #000000;
-    }
+#footer ul li a i {
+    text-decoration: none;
+}
 
-    .footer-link,
-    .footer-link:link
-    .footer-link:hover,
-    .footer-link:active,
-    .footer-link:visited,
-    .footer-link:focus {
-        text-decoration: none;
-        color: #000000;
-    }
-
-    .social-links li a i,
-    .social-links li a i:link
-    .social-links li a i:hover,
-    .social-links li a i:active,
-    .social-links li a i:visited,
-    .social-links li a i:focus {
-        text-decoration: none;
-        color: #000000;
-    }
 
     .lg-album {
         display: none;
