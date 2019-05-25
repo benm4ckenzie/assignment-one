@@ -60,6 +60,7 @@ The remit of the assignment was to create a responsive website of around 4-5 pag
 - As there are no headings present in any of the sections, a feature that needs adding is an 'active' element to the navbar shortcut when the user is within that section.
 - A 'stop' and 'rewind' icon needs adding to each of the album covers without taking up too much space. Alternatively, the 'pause' icon could be replaced by a 'stop' icon that immediately returns the audio file to the start position.
 - The video, upon playback being initiated, should increase to occupy more of the available screen. And, conversely, reduce in size once playback has ended or been stopped.
+- Upon submitting an enquiry, the page currently refreshes. The Javascript required to re-direct the client to a 'Successful submission' page is beyond the compass of my current knowledge and, therefore, requires adding.
 
 ## Technologies Used
 
@@ -80,48 +81,38 @@ Throughout the development of the webpage, there was continuous testing and eval
 
 The website was developed, as previously indicated, with minimalism in mind whilst drawing on the artistic side of the band and using their iconic imagery to appeal to both current and prospective fans.
 
-The 'inspect' tool in Google Chrome was my primary testing aparatus for my website when investigating the functionality and useability of the site at various screen resolutions. Whilst developing all sections of the website I continually reverted back to this tool to ensure the product matched my expectations and make any styling modifications required at various screen resolutions.
+The 'inspect' tool in Google Chrome was my primary testing aparatus for my website when investigating the functionality and useability of the site at various screen resolutions. Whilst developing all sections of the website I continually reverted back to this tool to ensure the product matched my expectations which then informed as to whether further modifications were required at various screen resolutions.
 
-In addition to 'inspect' in Google Chrome, I frequented [W3C's HTML validation](https://validator.w3.org/) service as well as [W3C's CSS validation](https://jigsaw.w3.org/css-validator/) service to ensure my code fulfilled the necessary criteria.
+In addition to 'inspect' in Google Chrome, I frequented [W3C's HTML validation](https://validator.w3.org/) service as well as [W3C's CSS validation](https://jigsaw.w3.org/css-validator/) service to ensure my code fulfilled the necessary criteria and remove any errors.
 
 Scenarios I was concerned with whilst developing and testing my website have already been indicated in the **features** part of this READMe file.
 
 Whilst working on the project I ran into a number of bugs that I feel have been resolved to my satisfaction. These bugs included:
 
-1. Navbar burger icon at large sizes.
-2. background images for homepage and video sections at smaller screen sizes.
-3. Text area sizing in about section when reducing the screen size.
-4. Preventing an overlap from the video when in smaller screen sizes.
-5. Applying the play and pause icons to the album covers.
+1. The use of a navbar burger icon at large sizes.
+2. Ensuring background images for both the homepage and video sections were appropriate for smaller screen sizes.
+3. The text area sizing in the 'about' section when reducing the screen size was problematic.
+4. Preventing an overlap from the video when in smaller screen sizes caused numerous issues for me when developing this part of the webpage at smaller screen sizes.
+5. Applying the play and pause icons to the album covers posed an issue in ensuring they rendered appropriately at various screen sizes whilst still remaining functional.
 
 ## Deployment
 
-The site was deployed using GitHub. Throughout the development process, at each key phase, I committed the updated files to GitHub so as to back up my work and also allow me to refer back to previous versions of my work.
-
-
-
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+The site was deployed using GitHub and utilises a single branch. Throughout the development process, at each key phase, I committed the updated files to GitHub so as to back up my work and also allow me to refer back to previous versions of my work at key acheivements during the process.
 
 ## Credits
+
+### Code
+
+- [Stack Overflow](https://stackoverflow.com/) was heavily utilised in modifiying both HTML5 and CSS code to attain the desired results.
 
 ### Content
 
 - The music video for the 'Video' section of the website was copied from [YouTube](https://www.youtube.com/watch?v=NCtzkaL2t_Y).
-- The music for the 'Music' section of the website was taken from my own collection.
+- The audio files for the 'Music' section of the website was taken from my own collection.
 
 ### Media
 
 - The photo used for the 'Home' section of the website was obtained from [Front Porch](https://frontporch.club/galleries/poster-and-beatles-black-white-tumblr.html).
-- https://www.pinterest.co.uk/pin/778208010580773370/?lp=true
 - The photo used for the 'About' section of the website was obtained from [Consequence of Sound](https://consequenceofsound.net/2017/04/previously-unreleased-version-of-the-beatles-sgt-peppers-lonely-hearts-club-band-unearthed-from-the-vaults-listen/).
 - The photo used for the 'Video' section of the website was obtained from [SiriusXM](http://blog.siriusxm.com/from-yesterday-to-now-9-beatles-songs-that-are-often-overlooked/).
 - The photo used for the 'Music' section of the website was obtained from my own collection.
