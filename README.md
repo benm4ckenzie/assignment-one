@@ -32,7 +32,7 @@ The remit of the assignment was to create a responsive website of around 4-5 pag
     - Due to the colourful and diverse nature of the album cover mosaic, there was no requirement for a section background as, with the previous segments, the colours offered suitable contrast to the black & white background image of the 'video' section and therefore provided the user with an indication that they were in a new section.
     - Due to the size of the images and the number of albums, this is the only segment whereby the section is not viewed with 90% of the view height as the continuous flow of albums should encourage the user to scroll further down the page.
 - Contact
-    - As with all the sections that came before, I wanted a focus to be on the imagery associated with the section. As a result the catch-line alluding to the contact box was kept brief and to the point.
+    - As with all the sections that came before, I wanted a focus to be on the imagery associated with the section. As a result, the catch-line alluding to the contact box was kept brief and to the point.
     - Again, an opaque text box was used so as to not detract to much from the background image.
     - The contact box takes up minimal real estate on the page and the submit button is green, paying homage to the colour of the apple that was used as an icon for The Beatles' own record label.
     - The functions of each box work as intended and provide suitable feedback when not completed correctly.
@@ -60,14 +60,14 @@ The remit of the assignment was to create a responsive website of around 4-5 pag
 - As there are no headings present in any of the sections, a feature that needs adding is an 'active' element to the navbar shortcut when the user is within that section.
 - A 'stop' and 'rewind' icon needs adding to each of the album covers without taking up too much space. Alternatively, the 'pause' icon could be replaced by a 'stop' icon that immediately returns the audio file to the start position.
 - The video, upon playback being initiated, should increase to occupy more of the available screen. And, conversely, reduce in size once playback has ended or been stopped.
-- Upon submitting an enquiry, the page currently refreshes. The Javascript required to re-direct the client to a 'Successful submission' page is beyond the compass of my current knowledge and, therefore, requires adding.
+- Upon submitting an enquiry, the page currently refreshes. The JavaScript required to re-direct the client to a 'Successful submission' page is beyond the compass of my current knowledge and, therefore, requires adding.
 
 ## Technologies Used
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [jQuery](https://jquery.com)
+    - The project uses **jQuery** to simplify DOM manipulation.
 - [Google Fonts](https://fonts.google.com)
-    - The project uses **Google Fonts** as a source text fonts.
+    - The project uses **Google Fonts** as a source of text fonts.
 - [Bootstrap CDN](https://www.bootstrapcdn.com/)
     - The project uses **Bootstrap CDN** to help with webpage structure and visual elements.
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -81,7 +81,7 @@ Throughout the development of the webpage, there was continuous testing and eval
 
 The website was developed, as previously indicated, with minimalism in mind whilst drawing on the artistic side of the band and using their iconic imagery to appeal to both current and prospective fans.
 
-The 'inspect' tool in Google Chrome was my primary testing aparatus for my website when investigating the functionality and useability of the site at various screen resolutions. Whilst developing all sections of the website I continually reverted back to this tool to ensure the product matched my expectations which then informed as to whether further modifications were required at various screen resolutions.
+The 'inspect' tool in Google Chrome was my primary testing apparatus for my website when investigating the functionality and usability of the site at various screen resolutions. Whilst developing all sections of the website I continually reverted back to this tool to ensure the product matched my expectations which then informed as to whether further modifications were required at various screen resolutions.
 
 In addition to 'inspect' in Google Chrome, I frequented [W3C's HTML validation](https://validator.w3.org/) service as well as [W3C's CSS validation](https://jigsaw.w3.org/css-validator/) service to ensure my code fulfilled the necessary criteria and remove any errors.
 
@@ -97,13 +97,16 @@ Whilst working on the project I ran into a number of bugs that I feel have been 
 
 ## Deployment
 
-The site was deployed using GitHub and utilises a single branch. Throughout the development process, at each key phase, I committed the updated files to GitHub so as to back up my work and also allow me to refer back to previous versions of my work at key acheivements during the process.
+The site was deployed using GitHub and utilises a single branch. Throughout the development process, at each key phase, I committed the updated files to GitHub so as to back up my work and also allow me to refer back to previous versions of my work at key achievements during the process.
+
+Deployed site URL: https://benm4ckenzie.github.io/assignment-one/
+GitHub repository URL: https://github.com/benm4ckenzie/assignment-one
 
 ## Credits
 
 ### Code
 
-- [Stack Overflow](https://stackoverflow.com/) was heavily utilised in modifiying both HTML5 and CSS code to attain the desired results.
+- [Stack Overflow](https://stackoverflow.com/) was heavily utilised in modifying both HTML5 and CSS code to attain the desired results.
 
 ### Content
 
@@ -120,5 +123,5 @@ The site was deployed using GitHub and utilises a single branch. Throughout the 
 
 ### Acknowledgements
 
-- I received inspiration for this project from my Father, an avid Beatles fan, who exposed me to they music from a young age. And, as a result, I became a fan, too.
+- I received inspiration for this project from my Father, an avid Beatles fan, who exposed me to their music from a young age. And, as a result, I became a fan, too.
 # assignment-one
