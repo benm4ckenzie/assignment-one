@@ -100,6 +100,8 @@ Whilst working on the project I ran into a number of bugs that I feel have been 
 
 The site was deployed using GitHub and utilises a single branch. Throughout the development process, at each key phase, I committed the updated files to GitHub so as to back up my work and also allow me to refer back to previous versions of my work.
 
+The deployed site, when accessed directly from an iPad or iPhone, does not render the black & white background images as they do when using the 'inspect' tool of Google Chrome during testing. The images adjusted accordingly during testing, however, on these devices, the images remain large, slightly pixelated, and unrecognisable. This is problematic and needs addressing in future development of the website.
+
 Deployed site URL: https://benm4ckenzie.github.io/assignment-one/
 GitHub repository URL: https://github.com/benm4ckenzie/assignment-one
 
